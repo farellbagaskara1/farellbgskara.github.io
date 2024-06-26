@@ -1,0 +1,104 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+dl, dd, ol, ul, figure,
+fieldset, legend, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Styling for the article section */
+article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+article div {
+    margin-bottom: 20px;
+}
+
+article table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+article table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+article table tr:first-child {
+    font-weight: bold;
+}
+
+/* Styling for the aside section */
+aside {
+    float: right;
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Styling links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styles */
+.side {
+    text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    aside {
+        float: none;
+        width: 100%;
+    }
+}

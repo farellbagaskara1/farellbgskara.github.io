@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>Pendataan Maba UAD</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+      <h2>PMB UAD</h2>
+      <h3>LOGOUT</h3>
+    </nav>
+    <article>
+      <div align="center">
+        <strong><font size="6" face="Courier New, Courier, mono">PENDAFTARAN MABA UAD</font></strong>
+      </div>
+      <form name="form1" method="post" action="proses.php">
+        <table width="58%" border="0" align="center">
+          <tr>
+            <td>Nama Lengkap</td>
+            <td><input name="nama" type="text" id="nama" /></td>
+          </tr>
+          <tr>
+            <td>NISN</td>
+            <td><input name="nisn" type="text" id="nisn" /></td>
+          </tr>
+          <tr>
+            <td>Tempat, Tanggal Lahir</td>
+            <td><input name="ttl" type="text" id="ttl" /></td>
+          </tr>
+          <tr>
+            <td>Jenis Kelamin</td>
+            <td>
+              <select name="jk" id="jk">
+                <option>Laki - Laki</option>
+                <option>Perempuan</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Alamat</td>
+            <td><input name="alamat" type="text" id="alamat" /></td>
+          </tr>
+          <tr>
+            <td>No Telp</td>
+            <td><input name="notelp" type="text" id="notelp" /></td>
+          </tr>
+          <tr>
+            <td>Pekerjaan orang tua</td>
+            <td><input name="pk_ortu" type="text" id="pk_ortu" /></td>
+          </tr>
+          <tr>
+            <td>Asal sekolah</td>
+            <td><input name="sklh" type="text" id="sklh" /></td>
+          </tr>
+          <tr>
+            <td>Jurusan Asal sekolah</td>
+            <td><input name="jr_sklh" type="text" id="jr_sklh" /></td>
+          </tr>
+          <tr>
+            <td>Jurusan dan fakultas pilihan</td>
+            <td>
+              <select name="prodi" id="prodi">
+                <option>Informatika - FTI</option>
+                <option>Elektro - FTI</option>
+                <option>PGSD - FKIP</option>
+                <option>fisika - FAST</option>
+                <option>BK - FKIP</option>
+                <option>Matematika - FAST</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>
+              <input type="submit" name="Submit" value="Kirim" />
+              <input type="reset" name="Submit2" value="Batal" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </article>
+    <aside>
+      <div class= "side" ="center">
+        <strong><a href="lihat.php">::Lihat Pendaftar::</a></strong>
+      </div>
+    </aside>
+  </body>
+</html>
